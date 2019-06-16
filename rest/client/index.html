@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="cs">
+
+<head>
+  <title>STATISTIKY</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href=" css/style2.css ">
+</head>
+
+<body>
+  <header class="jumbotron-fluid  p-5">
+    <h1 class="text-center display-3 text-white">
+      <strong>
+        <b>STATISTIKY HRÁČŮ</b>
+      </strong>
+    </h1>
+  </header>
+  <main class="container-fluid container ">
+    <br>
+    <br>
+    <div class="text-center">
+      <h3>
+        <strong>
+          <a href="../../index.html">HLAVNÍ STRÁNKA</a>
+        </strong>
+        </h5>
+    </div>
+    <br>
+    <br>
+    <table class="table table-bordered table-striped table-dark">
+      <thead class="table-warning">
+        <tr>
+          <th>ID</th>
+          <th>Jméno       <small>+(edit)</small></th>
+          <th>Věk</th>
+          <th>Body</th>
+          <th>Stát</th>
+          <th>Pozice</th>
+          <th>Smazat</th>
+        </tr>
+      </thead>
+      <tbody id="list">
+      </tbody>
+    </table>
+    <!-- Modal dialog pro zápis filmu -->
+    <!-- Button trigger modal -->
+    <button type="button" id="create" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modelId">
+      Nový záznam
+    </button>
+  </main>
+  <!-- Modal -->
+  <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-dark text-light">
+          <h5 class="modal-title">Profil Hráče</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" class="text-light">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <form>
+              <div class="form-group row" style="display:none">
+                <label for="id" class="col-sm-3 col-form-label">ID</label>
+                <div class="col-sm-9">
+                  <input type="hidden" class="form-control" name="id" id="id">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="name" class="col-sm-3 col-form-label">Jméno</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="name" id="name">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="year" class="col-sm-3 col-form-label">Věk</label>
+                <div class="col-sm-9">
+                  <input type="number" class="form-control" name="year" id="year">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="point" class="col-sm-3 col-form-label">Body</label>
+                <div class="col-sm-9">
+                  <input type="number" class="form-control" name="point" id="point">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="state" class="col-sm-3 col-form-label">Stát</label>
+                <div class="col-sm-9">
+                  <select class="custom-select" name="state" id="state">
+                    <option id="0" value="Kanada" >Kanada</option>
+                    <option id="1" value="Česká republika">Česká republika</option>
+                    <option id="2" value="Francie">Francie</option>
+                    <option id="3" value="Švédsko">Švédsko</option>
+                    <option id="4" value="USA">USA</option>
+                    <option id="5" value="Rusko">Rusko</option>
+                    <option id="6" value="Finsko">Finsko</option>
+                    <option id="7" value="Švýcarsko">Švýcarsko</option>
+                    <option id="8" value="Německo">Německo</option>
+                    <option id="9" value="Slovensko">Slovensko</option>
+                    <option id="10" value="Slovinsko">Slovinsko</option>
+                    <option id="11" value="Rakousko">Rakousko</option>
+                    <option id="12" value="Dánsko">Dánsko</option>
+                    <option id="13" value="Norsko">Norsko</option>
+                  </select>
+                </div>
+              </div>
+<!--              <div class="form-group row">
+                <label for="picture" class="col-sm-3 col-form-label">Stát</label>
+                <div class="col-sm-9">
+                  <select class="custom-select" name="picture" id="picture">
+                    <option id="0" value="../img/cze.png" >Kanada</option>
+                    <option id="1" value="img/cze.png">Česká republika</option>
+                    <option id="2" value="img/cze.png">Francie</option>
+                    <option id="3" value="img/cze.png">Švédsko</option>
+                    <option id="4" value="img/cze.png">USA</option>
+                    <option id="5" value="img/cze.png">Rusko</option>
+                    <option id="6" value="img/cze.png">Finsko</option>
+                    <option id="7" value="img/cze.png">Švýcarsko</option>
+                    <option id="8" value="img/cze.png">Německo</option>
+                    <option id="9" value="img/cze.png">Slovensko</option>
+                    <option id="10" value="img/cze.png">Slovinsko</option>
+                    <option id="11" value="img/cze.png">Rakousko</option>
+                    <option id="12" value="img/cze.png">Dánsko</option>
+                    <option id="13" value="img/cze.png">Norsko</option>
+                  </select>
+                </div>
+              </div> -->
+              <div class="form-group row">
+                <label for="position" class="col-sm-3 col-form-label">Pozice</label>
+                <div class="col-sm-9">
+                  <select class="custom-select" name="position" id="position">
+                    <option value="Levé křídlo">Levé křídlo</option>
+                    <option value="Pravé křídlo">Pravé křídlo</option>
+                    <option value="Centr">Centr</option>
+                    <option value="Levý obránce">Levý obránce</option>
+                    <option value="Pravý obránce">Pravý obránce</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="content" class="col-sm-3 col-form-label">Obsah</label>
+                <div class="col-sm-9">
+                  <textarea row="5" class="form-control" name="content" id="content"></textarea>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="modal-footer bg-light">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Zrušit</button>
+          <button type="button" id="submit" class="btn btn-info" data-dismiss="modal">Uložit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <div class="container text-left p-8">
+    <h3>
+      <strong>
+        <a href="../../index.html">HLAVNÍ STRÁNKA</a>
+      </strong>
+      </h5>
+  </div>
+  <br>
+  <br>
+  <br>
+  <footer class="p-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-4">
+          <div class="text-secondary">
+            <p>
+              <a href="https://www.sspu-opava.cz" target="_blank">
+                <img src="../../img/skola-logo.png" alt="Logo školy">
+              </a>
+            </p>
+            <p>Stránka vznikla jako studijní práce v rámci předmětu Programové vybavení</p>
+            <p>&copy; 2019 - SŠPU Opava</p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-8">
+          <h5 class="text-primary text-uppercase border-bottom mb-4 pb-3">Kontakt na autora</h5>
+          <div class="text-secondary">
+            <p>
+              <b>Lukáš Jureček</b>
+            </p>
+            <p>E-mail: lukas.jruecek.zsvelkeheraltice@gmail.com</p>
+            <p>Github:
+              <a href="https://github.com/lukasjurecek" target="_blank">https://github.com/lukasjurecek</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous">
+    </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous">
+    </script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "name": "Nikita Kucherov",
+    "year": "25",
+    "point": "128",
+    "state": "Rusko",
+    "position": "Pravé křídlo",
+    "content": "Hraje za Lighting"
+  },
+  {
+    "id": 2,
+    "name": "Connor McDavid",
+    "year": "22",
+    "point": "116",
+    "state": "Kanada",
+    "position": "Centr",
+    "content": "Hraje za Oilers"
+  },
+  {
+    "id": 3,
+    "name": "Patrick Kane",
+    "year": "30",
+    "point": "110",
+    "state": "USA",
+    "position": "Pravé křídlo",
+    "content": "Hraje za  Blackhawks"
+  },
+  {
+    "id": 4,
+    "name": "Leon Draisaitl",
+    "year": "23",
+    "point": "105",
+    "state": "Německo",
+    "position": "Centr",
+    "content": "Hraje za Oilers"
+  },
+  {
+    "id": 5,
+    "name": "Brad Marchand",
+    "year": "31",
+    "point": "100",
+    "state": "Kanada",
+    "position": "Pravé křídlo",
+    "content": "Hraje za Bruins"
+  },
+  {
+    "id": 6,
+    "name": "Sidney Crosby",
+    "year": "31",
+    "point": "100",
+    "state": "Kanada",
+    "position": "Centr",
+    "content": "Hraje za Pens"
+  },
+  {
+    "id": 7,
+    "name": "Nathan MacKinnon",
+    "year": "23",
+    "point": "99",
+    "state": "Kanada",
+    "position": "Centr",
+    "content": "Hraje za Avalanche"
+  },
+  {
+    "id": 8,
+    "name": "Johnny Gaudreau",
+    "year": "25",
+    "point": "99",
+    "state": "USA",
+    "position": "Levé křídlo",
+    "content": "Hraje za Flames"
+  },
+  {
+    "id": 9,
+    "name": "Steven Stamkos",
+    "year": "29",
+    "point": "98",
+    "state": "Kanada",
+    "position": "Centr",
+    "content": "Hraje za Lighting"
+  },
+  {
+    "id": 10,
+    "name": "Aleksander Barkov",
+    "year": "23",
+    "point": "96",
+    "state": "Finsko",
+    "position": "Centr",
+    "content": "Hraje za Panthers"
+  },
+  {
+    "id": 11,
+    "name": "Mitchell Marner",
+    "year": "22",
+    "point": "94",
+    "state": "Kanada",
+    "position": "Pravé křídlo",
+    "content": "Hraje za Maple Leafs"
+  },
+  {
+    "id": 12,
+    "name": "Brayden Point",
+    "year": "23",
+    "point": "92",
+    "state": "Kanada",
+    "position": "Centr",
+    "content": "Hraje za Lightning"
+  },
+  {
+    "id": 13,
+    "name": "Jonathan Huberdeau",
+    "year": "26",
+    "point": "92",
+    "state": "Kanada",
+    "position": "Levé křídlo",
+    "content": "Hraje za Panthers"
+  },
+  {
+    "id": 14,
+    "name": "Blake Wheeler",
+    "year": "32",
+    "point": "91",
+    "state": "USA",
+    "position": "Pravé křídlo",
+    "content": "Hraje za Jets"
+  },
+  {
+    "id": 15,
+    "name": "Alexander Ovechkin",
+    "year": "33",
+    "point": "89",
+    "state": "Rusko",
+    "position": "Levé křídlo",
+    "content": "Hraje za Capitals"
+  },
+  {
+    "id": 16,
+    "name": "John Tavares",
+    "year": "28",
+    "point": "88",
+    "state": "Kanada",
+    "position": "Centr",
+    "content": "Hraje za Maple Leafs"
+  },
+  {
+    "id": 17,
+    "name": "Mikko Rantanen",
+    "year": "22",
+    "point": "87",
+    "state": "Finsko",
+    "position": "Pravé křídlo",
+    "content": "Hraje za Avalanche"
+  },
+  {
+    "id": 18,
+    "name": "Artemi Panarin",
+    "year": "27",
+    "point": "87",
+    "state": "Rusko",
+    "position": "Levé křídlo",
+    "content": "Hrál za Blue Jackets----teď bude nejspíš volným hráčem"
+  },
+  {
+    "id": 19,
+    "name": "Claude Giroux",
+    "year": "31",
+    "point": "87",
+    "state": "Kanada",
+    "position": "Centr",
+    "content": "Hraje za Flyers"
+  },
+  {
+    "id": 20,
+    "name": "Mark Scheifele",
+    "year": "26",
+    "point": "84",
+    "state": "Kanada",
+    "position": "Centr",
+    "content": "Hraje za Jets"
+  },
+  {
+    "id": 21,
+    "name": "Sebastian Aho",
+    "year": "21",
+    "point": "83",
+    "state": "Finsko",
+    "position": "Centr",
+    "content": "Hraje za Hurricanes"
+  },
+  {
+    "id": 22,
+    "name": "Brent Burns",
+    "year": "34",
+    "point": "83",
+    "state": "Kanada",
+    "position": "Pravý obránce",
+    "content": "Hraje za Sharks"
+  },
+  {
+    "id": 23,
+    "name": "Sean Monahan",
+    "year": "24",
+    "point": "82",
+    "state": "Kanada",
+    "position": "Centr",
+    "content": "Hraje za Flames"
+  },
+  {
+    "id": 24,
+    "name": "Jack Eichel",
+    "year": "22",
+    "point": "82",
+    "state": "USA",
+    "position": "Centr",
+    "content": "Hraje za Sabres"
+  },
+  {
+    "id": 25,
+    "name": "Phil Kessel",
+    "year": "31",
+    "point": "82",
+    "state": "USA",
+    "position": "Pravé křídlo",
+    "content": "Hraje za Pens"
+  },
+  {
+    "id": 26,
+    "name": "David Pastrňák",
+    "year": "23",
+    "point": "81",
+    "state": "Česká republika",
+    "position": "Pravé křídlo",
+    "content": "Hraje za Bruins"
+  },
+  {
+    "id": 27,
+    "name": "Jonathan Toews",
+    "year": "31",
+    "point": "81",
+    "state": "Kanada",
+    "position": "Centr",
+    "content": "Hraje za Blackhawks"
+  },
+  {
+    "id": 28,
+    "name": "Tyler Seguin",
+    "year": "27",
+    "point": "80",
+    "state": "Kanada",
+    "position": "Centr",
+    "content": "Hraje za Stars"
+  },
+  {
+    "id": 29,
+    "name": "Patrice Bergeron",
+    "year": "33",
+    "point": "79",
+    "state": "Kanada",
+    "position": "Centr",
+    "content": "Hraje za Bruins"
+  },
+  {
+    "id": 30,
+    "name": "Elias Lindholm",
+    "year": "24",
+    "point": "78",
+    "state": "Švédsko",
+    "position": "Centr",
+    "content": "Hraje za Flames"
+  },
+  {
+    "id": 31,
+    "name": "Matthew Tkachuk",
+    "year": "21",
+    "point": "77",
+    "state": "USA",
+    "position": "Levé křídlo",
+    "content": "Hraje za Flames"
+  },
+  {
+    "id": 32,
+    "name": "Ryan O'Reilly",
+    "year": "28",
+    "point": "77",
+    "state": "Kanada",
+    "position": "Centr",
+    "content": "Hraje za Blues"
+  },
+  {
+    "id": 33,
+    "name": "Alex DeBrinacat",
+    "year": "21",
+    "point": "76",
+    "state": "USA",
+    "position": "Pravé křídlo",
+    "content": "Hraje za Blackhawks"
+  },
+  {
+    "id": 34,
+    "name": "Jake Guentzel",
+    "year": "24",
+    "point": "76",
+    "state": "USA",
+    "position": "Centr",
+    "content": "Hraje za Pens"
+  },
+  {
+    "id": 35,
+    "name": "Sean Couturier",
+    "year": "26",
+    "point": "76",
+    "state": "USA",
+    "position": "Centr",
+    "content": "Hraje za Flyers"
+  },
+  {
+    "id": 36,
+    "name": "Teuvo Teräväinen ",
+    "year": "24",
+    "point": "76",
+    "state": "Francie",
+    "position": "Pravé křídlo",
+    "content": "Hraje za Canes"
+  },
+  {
+    "id": 37,
+    "name": "Gabriel Landeskog",
+    "year": "26",
+    "point": "75",
+    "state": "Švédsko",
+    "position": "Levé křídlo",
+    "content": "Hraje za Avalanche"
+  },
+  {
+    "id": 38,
+    "name": "Tomáš Hertl",
+    "year": "25",
+    "point": "74",
+    "state": "Česká republika",
+    "position": "Centr",
+    "content": "Hraje za Sharks"
+  },
+  {
+    "id": 39,
+    "name": "Mika Zibanejad",
+    "year": "26",
+    "point": "74",
+    "state": "Švédsko",
+    "position": "Centr",
+    "content": "Hraje za Rangers"
+  },
+  {
+    "id": 40,
+    "name": "Nicklas Bäckström",
+    "year": "31",
+    "point": "74",
+    "state": "Švédsko",
+    "position": "Centr",
+    "content": "Hraje za Caps"
+  }
+]
